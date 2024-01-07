@@ -1,0 +1,12 @@
+# download dataset for 2020: 
+https://insights.stackoverflow.com/survey 
+
+
+1. To persist the changes in dataframe pass inplace=True
+-> eg:
+df.drop(columns=['first', 'last'], inplace=True)
+
+2. To persist the changes in series assign the column to new value
+-> eg:
+df['email'] = df['email'].str.lower()
+
